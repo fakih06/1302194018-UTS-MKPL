@@ -44,6 +44,31 @@ public class Employee {
 	}
 	
 
+	public String getEmployeeId() {
+		return employeeId;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public String getIdNumber() {
+		return idNumber;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public boolean isForeigner() {
+		return isForeigner;
+	}
+
+
 
 	
 
