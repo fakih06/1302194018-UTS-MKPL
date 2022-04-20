@@ -21,17 +21,24 @@ public class Employee {
 	private boolean isForeigner;
 	private boolean gender; //true = Laki-laki, false = Perempuan
 	
+<<<<<<< Updated upstream
 	// private int monthlySalary;
 	// private int otherMonthlyIncome;
 	// private int annualDeductible;
 	
 	private String spouseName;
 	private String spouseIdNumber;
+=======
+>>>>>>> Stashed changes
 
-	// private List<String> childNames;
-	// private List<String> childIdNumbers;
-	
-	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
+	public Employee(
+			String employeeId,
+			String firstName,
+			String lastName,
+			String idNumber,
+			String address,
+			boolean isForeigner
+	) {
 		this.employeeId = employeeId;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -43,6 +50,7 @@ public class Employee {
 		this.isForeigner = isForeigner;
 		this.gender = gender;
 		
+<<<<<<< Updated upstream
 		// childNames = new LinkedList<String>();
 		// childIdNumbers = new LinkedList<String>();
 	}
@@ -88,6 +96,10 @@ public class Employee {
 	// 	childNames.add(childName);
 	// 	childIdNumbers.add(childIdNumber);
 	// }
+=======
+
+	}
+>>>>>>> Stashed changes
 	
 	public int getAnnualIncomeTax() {
 		
