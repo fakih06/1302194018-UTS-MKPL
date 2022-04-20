@@ -1,6 +1,6 @@
 package lib;
 
-public class Child {
+public class Child{
     private String childName;
     private String childIdNumbers;
 
