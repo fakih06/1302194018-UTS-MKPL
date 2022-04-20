@@ -40,5 +40,8 @@ public class TaxFunction {
 		}
 			 
 	}
+	public static int sumIncome(SalaryEmployee salary, int numberOfMonthWorking) {
+		return ((salary.getMonthlySalary() + salary.getOtherMonthlyIncome()) * numberOfMonthWorking);
+	}
 	
 }
